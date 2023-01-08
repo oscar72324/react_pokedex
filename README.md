@@ -1,1 +1,1 @@
-A react pokemon pokedex that shows every single pokemon from every generation from 1 to 1008. By fetching from the PokeAPI, I was able to fetch every single pokemon and display them by their index, name and picture.
+A react pokemon pokedex that shows every single pokemon from every generation from 1 to 1008. By fetching from the PokeAPI, I was able to fetch every single pokemon and display them by their index number, name and picture.
