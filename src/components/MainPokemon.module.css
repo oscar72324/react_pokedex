@@ -1,0 +1,24 @@
+@import url('https://fonts.cdnfonts.com/css/pokemon-solid');
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+.btn{
+    background: rgb(201, 68, 68);
+    border: .5px solid black;
+    margin: 2rem;
+    color: white;
+    padding: .5rem;
+    border-radius: 10px;
+    width: 100px;
+    font-family: 'Pokemon Solid', sans-serif;
+}
+
+button:hover{
+    background: rgb(194, 42, 42);
+    cursor: pointer;
+}
