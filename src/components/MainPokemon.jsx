@@ -16,7 +16,6 @@ const MainPokemon = () => {
             setIsLoading(true)
             const response = await fetch(url);
             const data = await response.json()
-            console.log(data)
             eachPokemon(data.results);
             setPrevUrl(data.previous);
             setNextUrl(data.next);
