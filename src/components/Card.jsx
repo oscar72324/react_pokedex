@@ -3,7 +3,6 @@ import classes from './Card.module.css'
 
 const Card = (props) => {
 
-    console.log(props.pokemon)
     return ( 
     <React.Fragment>
         {props.loading ? <p>Loading...</p> 
